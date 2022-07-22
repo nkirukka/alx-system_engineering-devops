@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script prints a str 10 times
+num=0
+
+while [ $num -lt 10 ];
+do
+    echo "Best School"
+    let num=num+1
+done
