@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Print str 10 times in this script
+count=10
+
+until [ $count -lt 1 ]; 
+do
+    echo "Best School"
+    (( count-=1))
+done
